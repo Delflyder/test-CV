@@ -52,23 +52,42 @@
    <h3>Examples of my projects</h3>
         <a href="projects.html" target="_blanck">Click for full list</a>
         <hr>
-        <h2>Contact me</h2>
-        <form action="/">
-            <label for="name">Your name</label>
-            <input id="name" type="text" placeholder="Start typing Your name">
+        <table>
+            <tr>
+                <td>
+                    <h2>Contact me</h2>
+                    <form action="/">
+                        <label for="name">Your name</label>
+                        <input id="name" type="text" required placeholder="Start typing Your name">
 
-            <br>
+                        <br>
 
-            <label for="email">Your email</label>
-            <input id="email" type="text" placeholder="Start typing Your email">
+                        <label for="email">Your email</label>
+                        <input id="email" type="text" required placeholder="Start typing Your email">
 
-            <br>
+                        <br>
 
-            <label for="text">Your message</label>
-            <textarea id="text" rows="4" cols="18" placeholder="Start typing Your text"></textarea>
+                        <label for="text">Your message</label>
+                        <textarea id="text" rows="4" cols="18" required placeholder="Start typing Your text"></textarea>
 
-            <input type="submit" value="Send">
-        </form>
+                        <input type="submit" value="Send">
+                    </form>
+                </td>
+                <td align="top">
+                    <h2>Whats for you want to contact me?</h2>
+                    <form action="/">
+                        <label for="Full-time Job offer">
+                            <input id="Full-time Job offer" type="radio" name="type offer">Full-time Job offer
+                        </label>
+                        <br>
+                        <br>
+                        <label for="Part-time Job offer">
+                            <input for="Part-time Job offer" type="radio" name="type offer">Part-time Job offer
+                        </label>
+                    </form>
+                </td>
+            </tr>
+        </table>
     <hr>
     <h3 align="middle">THX FOR ATTENTION!!!</h3>
 </body>
